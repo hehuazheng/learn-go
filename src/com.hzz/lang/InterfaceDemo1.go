@@ -11,21 +11,21 @@ type Shape interface {
 type Rectangle struct {
 }
 
-func (this Rectangle) Draw() {
+func (Rectangle) Draw() {
 	fmt.Println("inside rectangle::draw()")
 }
 
 type Square struct {
 }
 
-func (this Square) Draw() {
+func (Square) Draw() {
 	fmt.Println("inside square::draw()")
 }
 
 type Circle struct {
 }
 
-func (this Circle) Draw() {
+func (Circle) Draw() {
 	fmt.Println("inside circle::draw()")
 }
 
