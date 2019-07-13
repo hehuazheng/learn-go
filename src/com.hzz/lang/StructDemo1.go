@@ -1,4 +1,4 @@
-package main
+package lang
 
 // A is a struct
 type A struct {

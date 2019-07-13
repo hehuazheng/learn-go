@@ -1,4 +1,4 @@
-package main
+package lang
 
 // I is a shortcut to integer
 type I int8
